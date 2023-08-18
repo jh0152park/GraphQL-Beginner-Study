@@ -95,3 +95,10 @@ The point is sometime i need more than one request to get a what I need.
 7. Create a new `.gitignore` file and with `touch .gitignore` cmd
 8. Add `node_modules/` folder into `.gitignore` file
 9. Initial git repository with `git init .` cmd
+
+# After Install Done
+
+1. Add `"dev": "nodemon server.js"` into `script` section of `pacakge.json` file
+2. Add `"type": "module"` into `pacakge.json` file
+3. Add `import { ApolloServer, gql } from "apollo-server";` into `server.js` file
+4. Check demon working fine or not with `npm run dev` cmd
