@@ -81,3 +81,17 @@ I can get a less information from server, so Its gonna make me request another a
 
 The point is sometime i need more than one request to get a what I need.
 <img width="300" height="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/800px-GraphQL_Logo.svg.png"/>
+
+---
+
+# How to start GraphQL with Apollo
+
+1. Create a new folder
+2. Move to folder what you created
+3. Run cmd `npm init -y` then crate `package.json` file
+4. Run cmd `npm i apollo-server graphql` to install GraphQL and Apollo Server
+5. Run cmd `npm i nodemon -D` to have better develope environment and experience
+6. Create a new `server.js` file and with `touch server.js` cmd
+7. Create a new `.gitignore` file and with `touch .gitignore` cmd
+8. Add `node_modules/` folder into `.gitignore` file
+9. Initial git repository with `git init .` cmd
