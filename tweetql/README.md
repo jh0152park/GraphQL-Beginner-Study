@@ -36,3 +36,7 @@
 2. Add `"type": "module"` into `pacakge.json` file
 3. Add `import { ApolloServer, gql } from "apollo-server";` into `server.js` file
 4. Check demon working fine or not with `npm run dev` cmd
+
+# Have to use Chrome or Firefox or Brave except Safari
+
+![image](https://github.com/jh0152park/GraphQL-Beginner-Study/assets/118165975/f42c37ac-7b9c-46b6-9b69-f5020c217ca9)
