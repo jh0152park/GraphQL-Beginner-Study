@@ -1,7 +1,7 @@
 # GraphQL-Study
 
 GraphQL Study because Im beginner😎
-<img width="300" height="200" src="https://store.graphql.org/cdn/shop/files/GraphQL-logo.png?v=1663253428">
+<img src="https://store.graphql.org/cdn/shop/files/GraphQL-logo.png?v=1663253428">
 
 # API
 
