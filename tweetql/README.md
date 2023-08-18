@@ -17,3 +17,22 @@
     - `git rm --cached . -rf`
 4. git add, commit, psuh 시도
 5. 문제해결
+
+# How to start GraphQL with Apollo
+
+1. Create a new folder
+2. Move to folder what you created
+3. Run cmd `npm init -y` then crate `package.json` file
+4. Run cmd `npm i apollo-server graphql` to install GraphQL and Apollo Server
+5. Run cmd `npm i nodemon -D` to have better develope environment and experience
+6. Create a new `server.js` file and with `touch server.js` cmd
+7. Create a new `.gitignore` file and with `touch .gitignore` cmd
+8. Add `node_modules/` folder into `.gitignore` file
+9. Initial git repository with `git init .` cmd
+
+# After Install Done
+
+1. Add `"dev": "nodemon server.js"` into `script` section of `pacakge.json` file
+2. Add `"type": "module"` into `pacakge.json` file
+3. Add `import { ApolloServer, gql } from "apollo-server";` into `server.js` file
+4. Check demon working fine or not with `npm run dev` cmd
