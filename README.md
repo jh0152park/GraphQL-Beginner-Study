@@ -59,3 +59,24 @@ So we can combine with `GET`, `POST`, `DELETE`, `PUT`, and more HTTP request met
 `DELETE`: delete data
 
 `PUT`: update data
+
+### GraphQL API
+
+What are the problems with GraphQL fixed(Actually REST API has two big problems)
+
+#### Over Fetching
+
+`over fetching`: I gave a lot of data from server even if I don't use it.
+
+First, GraphQL fixed over fetching(I dont have a any choice to get data what i need). just ask for what you need, get exactly that!
+
+And its also could make data transfer speed much slower! because we have to transfer many data with no option.
+
+#### Under Fetching
+
+`under fetching`: I gave less data from server what we need.
+
+I can get a less information from server, so Its gonna make me request another api to get more information. That mean is I have to do work 2 time.
+
+The point is sometime i need more than one request to get a what I need.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/800px-GraphQL_Logo.svg.png"/>
