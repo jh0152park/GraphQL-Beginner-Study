@@ -4,10 +4,25 @@ const Tweets = [
     {
         id: "1",
         text: "hello, this is first tweet!",
+        userId: "2",
     },
     {
         id: "2",
         text: "hello, this is second tweet!",
+        userId: "1",
+    },
+];
+
+const Users = [
+    {
+        id: "1",
+        fisrtName: "nico",
+        lastName: "las",
+    },
+    {
+        id: "2",
+        fisrtName: "elon",
+        lastName: "musk",
     },
 ];
 
@@ -15,9 +30,9 @@ const Tweets = [
 const typeDefs = gql`
     type User {
         id: ID!
-        username: String!
-        fisrtName: String
-        lastName: String
+        fisrtName: String!
+        lastName: String!
+        fullName: String!
     }
 
     type Tweet {
@@ -27,6 +42,7 @@ const typeDefs = gql`
     }
 
     type Query {
+        allUsers: [User!]!
         allTweets: [Tweet!]!
         tweet(id: ID!): Tweet
     }
@@ -46,6 +62,31 @@ const resolvers = {
             console.log(args);
             console.log(args.id);
             return null;
+        },
+        allUsers() {
+            console.log("called allUsers");
+            return Users;
+        },
+    },
+    Mutation: {
+        postTweet(_, { text, userId }) {
+            const newTweet = {
+                id: Tweets.length + 1,
+                text: text,
+                userId: userId,
+            };
+            Tweets.push(newTweet);
+            return newTweet;
+        },
+    },
+    User: {
+        fullName({ fisrtName, lastName }) {
+            return `${fisrtName} ${lastName}`;
+        },
+    },
+    Tweet: {
+        author({ userId }) {
+            return Users.find((user) => user.id === userId);
         },
     },
 };
