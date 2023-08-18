@@ -1,7 +1,7 @@
 # GraphQL-Study
 
 GraphQL Study because Im beginner😎
-<img src="https://store.graphql.org/cdn/shop/files/GraphQL-logo.png?v=1663253428">
+<img width="300" height="200" src="https://store.graphql.org/cdn/shop/files/GraphQL-logo.png?v=1663253428">
 
 # API
 
@@ -80,4 +80,4 @@ And its also could make data transfer speed much slower! because we have to tran
 I can get a less information from server, so Its gonna make me request another api to get more information. That mean is I have to do work 2 time.
 
 The point is sometime i need more than one request to get a what I need.
-<img width="500" height="500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/800px-GraphQL_Logo.svg.png"/>
+<img width="300" height="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/800px-GraphQL_Logo.svg.png"/>
