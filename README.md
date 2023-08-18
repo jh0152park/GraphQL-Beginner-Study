@@ -6,7 +6,7 @@ GraphQL Study because Im beginner😎
 
 ## What is API?
 
-API is `Application Programming` Interface, Also API is does not mean only to REST api or GraphQL api.
+API is `Application Programming Interface`, Also API is does not mean only to REST api or GraphQL api.
 
 `Interface`: some way to connection or interacting with something(whatever anyting). (Interfaction + Face = Interface😂)
 
@@ -50,9 +50,12 @@ So, we are be dependent wit HTTP method🔥
 
 Actually our browsers request the `get` request everytimes when we request to websites automatically.
 
-So we can combine with `GET`, `POST`, `DELETE`, `PUT`, with our REST API URLs😎
+So we can combine with `GET`, `POST`, `DELETE`, `PUT`, and more HTTP request method with our REST API URLs😎
 
 `GET`: get data from server
+
 `POST`: create data to server
+
 `DELETE`: delete data
+
 `PUT`: update data
