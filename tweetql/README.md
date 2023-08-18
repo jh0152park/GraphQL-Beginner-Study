@@ -40,3 +40,8 @@
 # Have to use Chrome or Firefox or Brave except Safari
 
 ![image](https://github.com/jh0152park/GraphQL-Beginner-Study/assets/118165975/f42c37ac-7b9c-46b6-9b69-f5020c217ca9)
+
+# typeDefs of GraphQL
+
+-   Query: Every requests have to located inside of `Query` if that request want to get data from server
+-   Mutation: Every requets have to located inside of `Mutation` if that request want to mutate some data through server, like `delete` or `added` or `update`
